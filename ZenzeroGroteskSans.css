@@ -1,0 +1,12 @@
+/* Webfont: ZenzeroGroteskSans */@font-face {
+    font-family: 'ZenzeroGroteskSans';
+    src: url('ZenzeroGroteskSans.eot'); /* IE9 Compat Modes */
+    src: url('ZenzeroGroteskSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('ZenzeroGroteskSans.woff') format('woff'), /* Modern Browsers */
+         url('ZenzeroGroteskSans.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('ZenzeroGroteskSans.svg#ZenzeroGroteskSans') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
