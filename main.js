@@ -4,7 +4,7 @@ const contantHeader = document.querySelector(".contantHeader");
 
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
-    headerSection.classList.add("active");
-    contantHeader.classList.add("active");
+    headerSection && headerSection.classList.add("active");
+    contantHeader && contantHeader.classList.add("active");
   }, 500);
 });
