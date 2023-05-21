@@ -196,13 +196,35 @@ body {
   height: 100vh;
   background-color: #00000070;
 }
-.buttonOfferSection {
+.buttonContainer {
   position: fixed;
   top: 66px;
+}
+.buttonView {
+  bottom: 9px;
+  left: 9px;
+  transition: right 1s linear;
+}
+.buttonView.move {
+  bottom: 0;
+  left: unset;
+  top: 0;
+  right: 0;
+  transition: right 1s linear;
+}
+.buttonOfferSection {
   background: #ffffff;
   box-shadow: -4px 0px 20px rgba(0, 0, 0, 0.2), 0px 4px 20px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   width: 369px;
+  padding: 1rem;
+  padding-bottom: 4rem;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.buttonOfferSection.hidden {
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 .header span {
   font-family: "Roboto";
@@ -286,5 +308,15 @@ body {
   }
   .buttonOfferSection {
     width: 832px;
+  }
+  .buttonOfferSection {
+    padding: 1rem;
+    padding-bottom: 1rem;
+  }
+  .buttonView {
+    bottom: unset;
+    left: unset;
+    right: 36px;
+    top: 9px;
   }
 }
